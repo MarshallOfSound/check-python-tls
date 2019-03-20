@@ -1,0 +1,10 @@
+{
+  "name": "@electron/check-python-tls",
+  "version": "1.0.0",
+  "description": "Checks if your version of python supports TLS1.2",
+  "bin": "./bin.js",
+  "main": "./no_main.js",
+  "repository": "https://github.com/marshallofsound/check-python-tls",
+  "author": "Samuel Attard",
+  "license": "MIT"
+}
