@@ -15,3 +15,13 @@ child.on('exit', (code, signal) => {
     process.exit(1);
   }
 });
+
+child.on('error', (err) => {
+  if (err.message && err.message.includes('ENOENT')) {
+    console.error('python executable could not be found, please ensure it is available on PATH');
+    process.exit(1);
+  } else {
+    console.error('Unknown error occurred while checking python TLS version');
+    console.error(err);
+  }
+})
