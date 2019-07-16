@@ -6,5 +6,10 @@
   "main": "./no_main.js",
   "repository": "https://github.com/marshallofsound/check-python-tls",
   "author": "Samuel Attard",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "bin.js",
+    "tls.py",
+    "server"
+  ]
 }
